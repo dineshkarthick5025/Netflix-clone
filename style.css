@@ -169,3 +169,97 @@ input[type="radio"]{
     max-height: 600px;
     padding: 30px 20px;
 }
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 100px;
+    }
+    
+    nav button {
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+    
+    .header-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .header-content h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
+    .header-content h3 {
+        font-size: 16px;
+    }
+    
+    .email-signup button {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    
+    .text-col, .img-col {
+        flex-basis: 100%;
+    }
+    
+    .feautures h2 {
+        font-size: 30px;
+    }
+    
+    .feautures p {
+        font-size: 15px;
+    }
+    
+    .text-row {
+        padding: 10px 0;
+    }
+    
+    .faq h2 {
+        font-size: 20px;
+    }
+    
+    .accordian li label {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    .accordian .content {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .header {
+        padding: 10px 4%;
+    }
+    
+    .language-btn {
+        padding: 4px 8px;
+    }
+    
+    .header-content h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    
+    .email-signup {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .email-signup button {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .email-signup input {
+        margin: 0;
+        padding: 10px;
+        width: 100%;
+    }
+}
